@@ -716,7 +716,8 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 0px 16px 75px 16px; }
+    padding: 0px 16px 75px 16px;
+    overflow: scroll; }
     .modal-window__form::-webkit-scrollbar {
       width: 0;
       height: 0; }
