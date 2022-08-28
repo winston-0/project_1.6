@@ -691,7 +691,11 @@
   background-color: white;
   display: none;
   z-index: 3;
-  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); }
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+  overflow: scroll; }
+  .modal-window::-webkit-scrollbar {
+    width: 0;
+    height: 0; }
   .modal-window--opened {
     position: fixed;
     top: 0;
